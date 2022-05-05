@@ -1,0 +1,23 @@
+[17-Nov-2021 08:13:50 UTC] PHP Fatal error:  Uncaught Error: Class 'OMAPI_Widget' not found in /home1/byronbal/public_html/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home1/byronbal/public_html/wp-includes/widgets.php(115): WP_Widget_Factory->register('OMAPI_Widget')
+#1 /home1/byronbal/public_html/wp-content/plugins/optinmonster/optin-monster-wp-api.php(290): register_widget('OMAPI_Widget')
+#2 /home1/byronbal/public_html/wp-includes/class-wp-hook.php(303): OMAPI->widgets('')
+#3 /home1/byronbal/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home1/byronbal/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home1/byronbal/public_html/wp-includes/widgets.php(1809): do_action('widgets_init')
+#6 /home1/byronbal/public_html/wp-includes/class-wp-hook.php(303): wp_widgets_init('')
+#7 /home1/byronbal/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /home1/byronbal/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /home1/byronbal/pub in /home1/byronbal/public_html/wp-includes/class-wp-widget-factory.php on line 61
+[15-Dec-2021 19:50:26 UTC] PHP Warning:  require_once(/home1/byronbal/public_html/wp-content/plugins/really-simple-ssl/class-mixed-content-fixer.php): failed to open stream: No such file or directory in /home1/byronbal/public_html/wp-content/plugins/really-simple-ssl/rlrsssl-really-simple-ssl.php on line 129
+[15-Dec-2021 19:50:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home1/byronbal/public_html/wp-content/plugins/really-simple-ssl/class-mixed-content-fixer.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/byronbal/public_html/wp-content/plugins/really-simple-ssl/rlrsssl-really-simple-ssl.php on line 129
+[23-Jan-2022 19:48:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Modules\Shapes\Widgets\TextPath' not found in /home1/byronbal/public_html/wp-content/plugins/elementor/core/base/module.php:325
+Stack trace:
+#0 /home1/byronbal/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Base\Module->init_widgets(Object(Elementor\Widgets_Manager))
+#1 /home1/byronbal/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/byronbal/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home1/byronbal/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(120): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 /home1/byronbal/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(302): Elementor\Widgets_Manager->init_widgets()
+#5 /home1/byronbal/public_html/wp-content/plugins/elementor/includes/elements/column.php(1037): Elementor\Widgets_Manager->get_widget_types('spacer')
+#6 /home1/byronbal/public_html/wp-content/plugins/elementor/include in /home1/byronbal/public_html/wp-content/plugins/elementor/core/base/module.php on line 325
